@@ -15,7 +15,7 @@ const mainnet = {
 const Botchain = {
   chainId: 968,
   name: 'Botchain Testnet',
-  currency: 'tBNB',
+  currency: 'Botchain',
   explorerUrl: 'https://scan.bohr.life/',
   rpcUrl: 'https://rpc.bohr.life'
 }

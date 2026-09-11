@@ -674,7 +674,7 @@ export default function Marketplace() {
             <div className="font-[500] uppercase">{bytes32ToString(data[7])}</div>
             <div className="mt-[0.2cm]"><span className="px-[0.2cm] py-[0.05cm] rounded-md bg-[#502]" style={{border:"2px solid #d7b644"}}>{bytes32ToString(data[8])} <img src="images/medal.png" width="18" style={{display:"inline-block"}} /></span></div>
             <div className="text-[#aaa] text-[90%] mt-[0.2cm]"><span>Floor</span></div>
-            <div className="mt-[0.1cm]"><span>{parseFloat(data[2].toString() * 10 **-18).toFixed(6)} BNB</span></div>
+            <div className="mt-[0.1cm]"><span>{parseFloat(data[2].toString() * 10 **-18).toFixed(6)} Botchain</span></div>
             <div>
               <button onClick={(e) => {e.preventDefault(); getItemsData(data[1]) & setCollectionTitle(data[5]) & getItemCreator(data[0]) & setaCollectionCategory(data[8])}} className='bg-[#502] rounded-md px-[0.2cm] py-[0.05cm] mt-[0.2cm] generalbutton' style={{border:"2px solid #aaa"}}>View collection <img src="images/add.png" width="17" className='mt-[-0.1cm]' style={{display:"inline-block"}} /></button>
               <button onClick={(e) => {e.preventDefault(); getItemCreator(data[0]) & setCollectionTitle(data[5]) & getSingleItemData(data[4])}} className='float-right bg-[#002] rounded-md px-[0.2cm] py-[0.05cm] mt-[0.2cm] generalbutton4' style={{border:"2px solid #aaa"}}>View NFT <img src="images/add.png" width="17" className='mt-[-0.1cm]' style={{display:"inline-block"}} /></button>
@@ -709,7 +709,7 @@ export default function Marketplace() {
             <div className="font-[500] uppercase">{bytes32ToString(data[7])}</div>
             <div className="mt-[0.2cm]"><span className="px-[0.2cm] py-[0.05cm] rounded-md bg-[#502]" style={{border:"2px solid #d7b644"}}>{bytes32ToString(data[8])} <img src="images/medal.png" width="18" style={{display:"inline-block"}} /></span></div>
             <div className="text-[#aaa] text-[90%] mt-[0.2cm]"><span>Floor</span></div>
-            <div className="mt-[0.1cm]"><span>{parseFloat(data[2].toString() * 10 **-18).toFixed(6)} BNB</span></div>
+            <div className="mt-[0.1cm]"><span>{parseFloat(data[2].toString() * 10 **-18).toFixed(6)} Botchain</span></div>
             <div>
               <button onClick={(e) => {e.preventDefault(); getItemsData(data[1]) & setCollectionTitle(data[5]) & getItemCreator(data[0]) & setaCollectionCategory(data[8])}} className='bg-[#502] rounded-md px-[0.2cm] py-[0.05cm] mt-[0.2cm] generalbutton' style={{border:"2px solid #aaa"}}>View collection <img src="images/add.png" width="17" className='mt-[-0.1cm]' style={{display:"inline-block"}} /></button>
               <button onClick={(e) => {e.preventDefault(); getItemCreator(data[0]) & setCollectionTitle(data[5]) & getSingleItemData(data[4])}} className='float-right bg-[#002] rounded-md px-[0.2cm] py-[0.05cm] mt-[0.2cm] generalbutton4' style={{border:"2px solid #aaa"}}>View NFT <img src="images/add.png" width="17" className='mt-[-0.1cm]' style={{display:"inline-block"}} /></button>
@@ -744,7 +744,7 @@ export default function Marketplace() {
             <div className="font-[500] uppercase">{bytes32ToString(data[7])}</div>
             <div className="mt-[0.2cm]"><span className="px-[0.2cm] py-[0.05cm] rounded-md bg-[#502]" style={{border:"2px solid #d7b644"}}>{bytes32ToString(data[8])} <img src="images/medal.png" width="18" style={{display:"inline-block"}} /></span></div>
             <div className="text-[#aaa] text-[90%] mt-[0.2cm]"><span>Floor</span></div>
-            <div className="mt-[0.1cm]"><span>{parseFloat(data[2].toString() * 10 **-18).toFixed(6)} BNB</span></div>
+            <div className="mt-[0.1cm]"><span>{parseFloat(data[2].toString() * 10 **-18).toFixed(6)} Botchain</span></div>
             <div>
               <button onClick={(e) => {e.preventDefault(); getItemsData(data[1]) & setCollectionTitle(data[5]) & getItemCreator(data[0]) & setaCollectionCategory(data[8])}} className='bg-[#502] rounded-md px-[0.2cm] py-[0.05cm] mt-[0.2cm] generalbutton' style={{border:"2px solid #aaa"}}>View collection <img src="images/add.png" width="17" className='mt-[-0.1cm]' style={{display:"inline-block"}} /></button>
               <button onClick={(e) => {e.preventDefault(); getItemCreator(data[0]) & setCollectionTitle(data[5]) & getSingleItemData(data[4])}} className='float-right bg-[#002] rounded-md px-[0.2cm] py-[0.05cm] mt-[0.2cm] generalbutton4' style={{border:"2px solid #aaa"}}>View NFT <img src="images/add.png" width="17" className='mt-[-0.1cm]' style={{display:"inline-block"}} /></button>
@@ -779,7 +779,7 @@ export default function Marketplace() {
             <div className="font-[500] uppercase">{bytes32ToString(data[7])}</div>
             <div className="mt-[0.2cm]"><span className="px-[0.2cm] py-[0.05cm] rounded-md bg-[#502]" style={{border:"2px solid #d7b644"}}>{bytes32ToString(data[8])} <img src="images/medal.png" width="18" style={{display:"inline-block"}} /></span></div>
             <div className="text-[#aaa] text-[90%] mt-[0.2cm]"><span>Floor</span></div>
-            <div className="mt-[0.1cm]"><span>{parseFloat(data[2].toString() * 10 **-18).toFixed(6)} BNB</span></div>
+            <div className="mt-[0.1cm]"><span>{parseFloat(data[2].toString() * 10 **-18).toFixed(6)} Botchain</span></div>
             <div>
               <button onClick={(e) => {e.preventDefault(); getItemsData(data[1]) & setCollectionTitle(data[5]) & getItemCreator(data[0]) & setaCollectionCategory(data[8])}} className='bg-[#502] rounded-md px-[0.2cm] py-[0.05cm] mt-[0.2cm] generalbutton' style={{border:"2px solid #aaa"}}>View collection <img src="images/add.png" width="17" className='mt-[-0.1cm]' style={{display:"inline-block"}} /></button>
               <button onClick={(e) => {e.preventDefault(); getItemCreator(data[0]) & setCollectionTitle(data[5]) & getSingleItemData(data[4])}} className='float-right bg-[#002] rounded-md px-[0.2cm] py-[0.05cm] mt-[0.2cm] generalbutton4' style={{border:"2px solid #aaa"}}>View NFT <img src="images/add.png" width="17" className='mt-[-0.1cm]' style={{display:"inline-block"}} /></button>
@@ -814,7 +814,7 @@ export default function Marketplace() {
             <div className="font-[500] uppercase">{bytes32ToString(data[7])}</div>
             <div className="mt-[0.2cm]"><span className="px-[0.2cm] py-[0.05cm] rounded-md bg-[#502]" style={{border:"2px solid #d7b644"}}>{bytes32ToString(data[8])} <img src="images/medal.png" width="18" style={{display:"inline-block"}} /></span></div>
             <div className="text-[#aaa] text-[90%] mt-[0.2cm]"><span>Floor</span></div>
-            <div className="mt-[0.1cm]"><span>{parseFloat(data[2].toString() * 10 **-18).toFixed(6)} BNB</span></div>
+            <div className="mt-[0.1cm]"><span>{parseFloat(data[2].toString() * 10 **-18).toFixed(6)} Botchain</span></div>
             <div>
               <button onClick={(e) => {e.preventDefault(); getItemsData(data[1]) & setCollectionTitle(data[5]) & getItemCreator(data[0]) & setaCollectionCategory(data[8])}} className='bg-[#502] rounded-md px-[0.2cm] py-[0.05cm] mt-[0.2cm] generalbutton' style={{border:"2px solid #aaa"}}>View collection <img src="images/add.png" width="17" className='mt-[-0.1cm]' style={{display:"inline-block"}} /></button>
               <button onClick={(e) => {e.preventDefault(); getItemCreator(data[0]) & setCollectionTitle(data[5]) & getSingleItemData(data[4])}} className='float-right bg-[#002] rounded-md px-[0.2cm] py-[0.05cm] mt-[0.2cm] generalbutton4' style={{border:"2px solid #aaa"}}>View NFT <img src="images/add.png" width="17" className='mt-[-0.1cm]' style={{display:"inline-block"}} /></button>
@@ -849,7 +849,7 @@ export default function Marketplace() {
             <div className="font-[500] uppercase">{bytes32ToString(data[7])}</div>
             <div className="mt-[0.2cm]"><span className="px-[0.2cm] py-[0.05cm] rounded-md bg-[#502]" style={{border:"2px solid #d7b644"}}>{bytes32ToString(data[8])} <img src="images/medal.png" width="18" style={{display:"inline-block"}} /></span></div>
             <div className="text-[#aaa] text-[90%] mt-[0.2cm]"><span>Floor</span></div>
-            <div className="mt-[0.1cm]"><span>{parseFloat(data[2].toString() * 10 **-18).toFixed(6)} BNB</span></div>
+            <div className="mt-[0.1cm]"><span>{parseFloat(data[2].toString() * 10 **-18).toFixed(6)} Botchain</span></div>
             <div>
               <button onClick={(e) => {e.preventDefault(); getItemsData(data[1]) & setCollectionTitle(data[5]) & getItemCreator(data[0]) & setaCollectionCategory(data[8])}} className='bg-[#502] rounded-md px-[0.2cm] py-[0.05cm] mt-[0.2cm] generalbutton' style={{border:"2px solid #aaa"}}>View collection <img src="images/add.png" width="17" className='mt-[-0.1cm]' style={{display:"inline-block"}} /></button>
               <button onClick={(e) => {e.preventDefault(); getItemCreator(data[0]) & setCollectionTitle(data[5]) & getSingleItemData(data[4])}} className='float-right bg-[#002] rounded-md px-[0.2cm] py-[0.05cm] mt-[0.2cm] generalbutton4' style={{border:"2px solid #aaa"}}>View NFT <img src="images/add.png" width="17" className='mt-[-0.1cm]' style={{display:"inline-block"}} /></button>
@@ -884,7 +884,7 @@ export default function Marketplace() {
             <div className="font-[500] uppercase">{bytes32ToString(data[7])}</div>
             <div className="mt-[0.2cm]"><span className="px-[0.2cm] py-[0.05cm] rounded-md bg-[#502]" style={{border:"2px solid #d7b644"}}>{bytes32ToString(data[8])} <img src="images/medal.png" width="18" style={{display:"inline-block"}} /></span></div>
             <div className="text-[#aaa] text-[90%] mt-[0.2cm]"><span>Floor</span></div>
-            <div className="mt-[0.1cm]"><span>{parseFloat(data[2].toString() * 10 **-18).toFixed(6)} BNB</span></div>
+            <div className="mt-[0.1cm]"><span>{parseFloat(data[2].toString() * 10 **-18).toFixed(6)} Botchain</span></div>
             <div>
               <button onClick={(e) => {e.preventDefault(); getItemsData(data[1]) & setCollectionTitle(data[5]) & getItemCreator(data[0]) & setaCollectionCategory(data[8])}} className='bg-[#502] rounded-md px-[0.2cm] py-[0.05cm] mt-[0.2cm] generalbutton' style={{border:"2px solid #aaa"}}>View collection <img src="images/add.png" width="17" className='mt-[-0.1cm]' style={{display:"inline-block"}} /></button>
               <button onClick={(e) => {e.preventDefault(); getItemCreator(data[0]) & setCollectionTitle(data[5]) & getSingleItemData(data[4])}} className='float-right bg-[#002] rounded-md px-[0.2cm] py-[0.05cm] mt-[0.2cm] generalbutton4' style={{border:"2px solid #aaa"}}>View NFT <img src="images/add.png" width="17" className='mt-[-0.1cm]' style={{display:"inline-block"}} /></button>
@@ -955,7 +955,7 @@ export default function Marketplace() {
             <div><img src={"https://ipfs.filebase.io/ipfs/" + data[9]} className="rounded-2xl w-[100%]" style={{border:"4px solid #aaa"}} /></div>
             <div className="lg:text-[130%] text-[120%] mt-[0.3cm] mx-[0.2cm]">Title: {bytes32ToString(data[7])}</div>
             <div className="lg:text-[120%] text-[110%] mx-[0.2cm]">Category: {bytes32ToString(data[8])}</div>
-            <div className='mx-[0.2cm] text-[#aaa]'><span className=''>Price: </span><span className='font-[500]'>{parseFloat(data[2].toString() * 10 **-18).toFixed(6)} BNB</span></div>
+            <div className='mx-[0.2cm] text-[#aaa]'><span className=''>Price: </span><span className='font-[500]'>{parseFloat(data[2].toString() * 10 **-18).toFixed(6)} Botchain</span></div>
             <button onClick={(e) => getSingleItemData(data[4]) & getItemCreator(data[0])} className='text-[aaa] bg-[#002] rounded-md px-[0.3cm] py-[0.1cm] m-[0.2cm] generalbutton3' style={{border:"2px solid #aaa"}}>View NFT <img src="images/eye-ball.png" width="25" className='mt-[-0.1cm]' style={{display:"inline-block"}} /></button>
             </div>
           ))}
@@ -991,9 +991,9 @@ export default function Marketplace() {
        <div className='p-[0.5cm] bg-[#002] max-h-[5cm] overflow-auto'>
         {data[6]}
        </div>
-       <div className='p-[0.5cm]' style={{borderBlock:"2px solid #333"}}><img src="images/bnb.png" width="25" className='mt-[-0.1cm]' style={{display:"inline-block"}} /> Price</div>
+       <div className='p-[0.5cm]' style={{borderBlock:"2px solid #333"}}><img src="images/Botchain.png" width="25" className='mt-[-0.1cm]' style={{display:"inline-block"}} /> Price</div>
        <div className='p-[0.5cm] bg-[#002] rounded-b-xl'>
-         <div className='text-[150%] font-[500]'>{parseFloat(data[2].toString() * 10 **-18).toFixed(6)} BNB</div>
+         <div className='text-[150%] font-[500]'>{parseFloat(data[2].toString() * 10 **-18).toFixed(6)} Botchain</div>
          {(data[10] === true && data[0] != address) && (<button onClick={(e) => {e.preventDefault(); buyNFT(data[2], data[4])}} className='px-[0.3cm] py-[0.2cm] bg-[#502] generalbutton w-[100%] mt-[0.2cm] rounded-md font-[500]'>Buy</button>)}
           {!showApproveList ? 
           (<div>

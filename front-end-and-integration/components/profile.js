@@ -137,7 +137,7 @@ export default function Profile() {
       }
 
   //read from NFT contract for user details and collection details
-  const [userBNBbalance, setuserBNBbalance] = useState()
+  const [userBotchainbalance, setuserBotchainbalance] = useState()
   const [registeredUsername, setregisteredUsername] = useState()
   const [showUsername, setShowUsername] = useState()
   const [soldBalance, setSoldBalance] = useState()
@@ -153,10 +153,10 @@ export default function Profile() {
          const ethersProvider = new BrowserProvider(walletProvider) 
          const nftContractReadSettings = new Contract(nftContractAddress, nftContractABI, ethersProvider)       
        try {
-        const BNBbalance = await ethersProvider.getBalance(address)
-        const parseBNBbalance = formatUnits(BNBbalance, 18);
-        console.log(parseBNBbalance)
-        setuserBNBbalance(parseBNBbalance)
+        const Botchainbalance = await ethersProvider.getBalance(address)
+        const parseBotchainbalance = formatUnits(Botchainbalance, 18);
+        console.log(parseBotchainbalance)
+        setuserBotchainbalance(parseBotchainbalance)
         const userDetails = await nftContractReadSettings.users(address)
         console.log(userDetails)
         const registeredusername = userDetails.username.toString()
@@ -562,7 +562,7 @@ export default function Profile() {
         <div className='p-[0.5cm] bg-[#000]'>
        <div className='clear-both'>
         <span className='lg:text-[200%] md:text-[180%] text-[150%] font-[500]'>{registeredUsername === "0x0000000000000000000000000000000000000000000000000000000000000000" ? (<span>user</span>) : (<span>{showUsername}</span>)}</span>
-        <div className='lg:float-right md:float-right mt-[0.1cm] font-[500]'>{soldBalance > 0 ? (<span>Total sales: {parseFloat(soldBalance).toFixed(6)} BNB</span>) : (<span>Total sales: 0 BNB</span>)}</div>
+        <div className='lg:float-right md:float-right mt-[0.1cm] font-[500]'>{soldBalance > 0 ? (<span>Total sales: {parseFloat(soldBalance).toFixed(6)} Botchain</span>) : (<span>Total sales: 0 Botchain</span>)}</div>
        </div>
         <div>
           <span>{address ? (<span>{address.substring(0, 4)}...{address.substring(36, 42)}</span>) : (<span>Connect wallet</span>)}</span>
@@ -652,7 +652,7 @@ export default function Profile() {
         <div className='text-center mb-[0.3cm] lg:mx-[20%] md:mx-[10%] mx-[5%] '>
           {theHash && (<img src={"https://ipfs.filebase.io/ipfs/" + theHash} className='mx-[auto]' />)}
         </div>
-        <input type="number" className='p-[0.2cm] bg-[#001] rounded-md outline-[#fff] w-[100%] mb-[0.3cm]' value={itemPrice} onChange={(e) => setItemPrice(e.target.value)} placeholder="Set a price for your item e.g 1 BNB" style={{border:"2px solid #00f"}} />
+        <input type="number" className='p-[0.2cm] bg-[#001] rounded-md outline-[#fff] w-[100%] mb-[0.3cm]' value={itemPrice} onChange={(e) => setItemPrice(e.target.value)} placeholder="Set a price for your item e.g 1 Botchain" style={{border:"2px solid #00f"}} />
         <button className='px-[0.3cm] py-[0.2cm] w-[100%] font-[500] bg-[#502] rounded-md generalbutton' onClick={(e) => {e.preventDefault(); addItemToNFTcollection(collectionContractAddress, itemTitle, theHash, itemDescription, itemCategory, itemPrice)}}>Add to collection <img src="images/collection2.png" width="23" className='mt-[-0.1cm]' style={{display:"inline-block"}} /></button>
         </div>
         </div>
@@ -695,7 +695,7 @@ export default function Profile() {
             <div><img src={"https://ipfs.filebase.io/ipfs/" + data[9]} className="rounded-2xl w-[100%]" style={{border:"4px solid #aaa"}} /></div>
             <div className="lg:text-[130%] text-[120%] mt-[0.3cm] mx-[0.2cm]">Title: {bytes32ToString(data[7])}</div>
             <div className="lg:text-[120%] text-[110%] mx-[0.2cm]">Category: {bytes32ToString(data[8])}</div>
-            <div className='mx-[0.2cm] text-[#aaa]'><span className=''>Price: </span><span className='font-[500]'>{parseFloat(data[2].toString() * 10 **-18).toFixed(6)} BNB</span></div>
+            <div className='mx-[0.2cm] text-[#aaa]'><span className=''>Price: </span><span className='font-[500]'>{parseFloat(data[2].toString() * 10 **-18).toFixed(6)} Botchain</span></div>
             <button onClick={(e) => controlSingleNFTDiv(e) & getSingleItemData(data[4]) & getItemCreator(data[0])} className='text-[aaa] bg-[#002] rounded-md px-[0.3cm] py-[0.1cm] m-[0.2cm] generalbutton3' style={{border:"2px solid #aaa"}}>View NFT <img src="images/eye-ball.png" width="25" className='mt-[-0.1cm]' style={{display:"inline-block"}} /></button>
             </div>
           ))}
@@ -731,9 +731,9 @@ export default function Profile() {
        <div className='p-[0.5cm] bg-[#002] max-h-[5cm] overflow-auto'>
         {data[6]}
        </div>
-       <div className='p-[0.5cm]' style={{borderBlock:"2px solid #333"}}><img src="images/bnb.png" width="25" className='mt-[-0.1cm]' style={{display:"inline-block"}} /> Price</div>
+       <div className='p-[0.5cm]' style={{borderBlock:"2px solid #333"}}><img src="images/Botchain.png" width="25" className='mt-[-0.1cm]' style={{display:"inline-block"}} /> Price</div>
        <div className='p-[0.5cm] bg-[#002] rounded-b-xl'>
-         <div className='text-[150%] font-[500]'>{parseFloat(data[2].toString() * 10 **-18).toFixed(6)} BNB</div>
+         <div className='text-[150%] font-[500]'>{parseFloat(data[2].toString() * 10 **-18).toFixed(6)} Botchain</div>
          {(data[10] === true && data[0] != address) && (<button onClick={(e) => {e.preventDefault(); buyNFT(data[2], data[4])}} className='px-[0.3cm] py-[0.2cm] bg-[#502] generalbutton w-[100%] mt-[0.2cm] rounded-md font-[500]'>Buy</button>)}
           {!showApproveList ? 
           (<div>

@@ -34,7 +34,7 @@ export default function Header(){
       </div>
       <div className='ml-[1.2cm]' style={{display:"inline-block"}}>
       <span className='text-[#fff] font-[600]'>NFT marketplace, Creators, DAO, on Botchain</span>
-      <img src="images/bnb.png" width="30" className='ml-[0.2cm] rounded-[100%]' style={{display:"inline-block"}} />
+      <img src="images/Botchain.png" width="30" className='ml-[0.2cm] rounded-[100%]' style={{display:"inline-block"}} />
       </div>
       <div className="ml-[1cm] mb-[0.2cm]" style={{display:"inline-block"}}>
       <w3m-button />
@@ -63,7 +63,7 @@ export default function Header(){
        </div>
        <div className='mt-[1cm]' style={{display:"block"}}>
        <Link href="/" onClick={(e) => changemenubehaviour2(e)}><img src="images/logo.png" width="140" style={{display:"inline-block"}}/></Link>
-       <Link href="https://scan.bohr.life/" onClick={(e) => changemenubehaviour2(e)}><img src="images/bnb.png" width="30" className='ml-[0.5cm] rounded-[100%]' style={{display:"inline-block"}}/></Link>
+       <Link href="https://scan.bohr.life/" onClick={(e) => changemenubehaviour2(e)}><img src="images/Botchain.png" width="30" className='ml-[0.5cm] rounded-[100%]' style={{display:"inline-block"}}/></Link>
        </div>
       </div>
       </div>

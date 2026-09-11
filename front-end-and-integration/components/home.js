@@ -130,7 +130,7 @@ import { BrowserProvider, Contract, formatUnits, parseUnits } from 'ethers'
         </div>
         <div className="grid lg:grid-cols-4 grid-cols-2 gap-8 mt-[1cm]">
        <div className="grid-cols-1">
-        <div className="text-[150%] font-[500]">18 BNB</div>
+        <div className="text-[150%] font-[500]">18 Botchain</div>
         <div className="text-[#aaa]">Funds raised</div>
        </div>
        <div className="grid-cols-1">
@@ -183,7 +183,7 @@ import { BrowserProvider, Contract, formatUnits, parseUnits } from 'ethers'
             <img src={data[1]} className="rounded-t-2xl w-[100%]" />
             <div className="mt-[0.2cm] p-[0.5cm]">
             <div className="lg:text-[150%] text-[120%] font-[500] overflow-auto">{bytes32ToString(data[0])}</div>
-            <div className="text-[#aaa]">Total sales: {parseFloat(data[3].toString() * 10 **-18).toFixed(6)} BNB</div>
+            <div className="text-[#aaa]">Total sales: {parseFloat(data[3].toString() * 10 **-18).toFixed(6)} Botchain</div>
             </div>
             </div>
               ))}
