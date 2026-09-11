@@ -33,7 +33,7 @@ export default function Header(){
       <Link href="/dashboard"><button className='ml-[1cm] menuitems'>Profile</button><img src="images/profile.png" width="22" className='ml-[0.2cm]' style={{display:"inline-block"}}/></Link>
       </div>
       <div className='ml-[1.2cm]' style={{display:"inline-block"}}>
-      <span className='text-[#fff] font-[600]'>NFT marketplace, Creators, DAO, on BNB Smart Chain</span>
+      <span className='text-[#fff] font-[600]'>NFT marketplace, Creators, DAO, on Botchain</span>
       <img src="images/bnb.png" width="30" className='ml-[0.2cm] rounded-[100%]' style={{display:"inline-block"}} />
       </div>
       <div className="ml-[1cm] mb-[0.2cm]" style={{display:"inline-block"}}>
