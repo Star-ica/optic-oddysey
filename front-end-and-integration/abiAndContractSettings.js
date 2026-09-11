@@ -703,7 +703,7 @@ function toChecksumAddress(address) {
 }
 
 // Address to convert
-const address = "0xBD9f5936ab650715567A158eCA31Fb980Fe06182";
+const address = "0xD526644375846eC26541c4631a191C84DC1c607B";
 const checksummedAddress = toChecksumAddress(address);
 console.log("checksum:" + checksummedAddress);
 

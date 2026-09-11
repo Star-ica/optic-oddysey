@@ -73,7 +73,7 @@ export default function Dashboard(){
     <div className='dashboardmenulg h-[100%] bg-[#111] text-[#fff]' style={{zIndex:"999", position:"fixed", boxShadow:"2px 2px 2px 2px #502", overflow:"auto"}}> 
      <div className='px-[0.5cm] py-[0.6cm] text-center' style={{display:"block"}}>
        <Link href="/"><img src="images/logo.png" width="150" className='mt-[0.8cm]' style={{display:"inline-block"}}/></Link>
-       <Link href="https://testnet.bscscan.com"><img src="images/bnb.png" width="30" className='ml-[0.3cm] rounded-[100%]' style={{display:"inline-block"}}/></Link>
+       <Link href="https://scan.bohr.life"><img src="images/bnb.png" width="30" className='ml-[0.3cm] rounded-[100%]' style={{display:"inline-block"}}/></Link>
      </div>
       <div>
       <div className='p-[0.4cm] menuitems4' onClick={(e) => setDisplayComponent("home") & changeBg1(e)} style={{background:bgColor1}}>Home <img src="images/home.png" width="20" className='ml-[0.2cm] mt-[-0.2cm]' style={{display:"inline-block"}}/></div>
@@ -93,7 +93,7 @@ export default function Dashboard(){
    <div className='w-[70%] h-[100%] bg-[#111] text-[#fff]' data-aos="fade-right" style={{boxShadow:"2px 2px 2px 2px #502", overflow:"auto"}}> 
      <div className='px-[0.5cm] py-[0.6cm] text-center' style={{display:"block"}}>
        <Link href="/"><img src="images/logo.png" width="150" onClick={(e) => setMountSmallMenu(false)} style={{display:"inline-block"}}/></Link>
-       <Link href="https://testnet.bscscan.com"><img src="images/bnb.png" width="30" className='ml-[0.3cm] rounded-[100%]' onClick={(e) => setMountSmallMenu(false)} style={{display:"inline-block"}}/></Link>
+       <Link href="https://scan.bohr.life"><img src="images/bnb.png" width="30" className='ml-[0.3cm] rounded-[100%]' onClick={(e) => setMountSmallMenu(false)} style={{display:"inline-block"}}/></Link>
      </div>
       <div>
       <div className='p-[0.4cm] menuitems4' onClick={(e) => setDisplayComponent("home") & changeBg1(e) & setMountSmallMenu(false)} style={{background:bgColor1}}>Home <img src="images/home.png" width="20" className='ml-[0.2cm]' style={{display:"inline-block"}}/></div>

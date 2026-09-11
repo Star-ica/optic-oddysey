@@ -63,7 +63,7 @@ export default function Header(){
        </div>
        <div className='mt-[1cm]' style={{display:"block"}}>
        <Link href="/" onClick={(e) => changemenubehaviour2(e)}><img src="images/logo.png" width="140" style={{display:"inline-block"}}/></Link>
-       <Link href="https://testnet.bscscan.com/" onClick={(e) => changemenubehaviour2(e)}><img src="images/bnb.png" width="30" className='ml-[0.5cm] rounded-[100%]' style={{display:"inline-block"}}/></Link>
+       <Link href="https://scan.bohr.life/" onClick={(e) => changemenubehaviour2(e)}><img src="images/bnb.png" width="30" className='ml-[0.5cm] rounded-[100%]' style={{display:"inline-block"}}/></Link>
        </div>
       </div>
       </div>

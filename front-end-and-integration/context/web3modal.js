@@ -3,21 +3,13 @@ import { createWeb3Modal, defaultConfig } from '@web3modal/ethers/react'
 // 1. Get projectId at https://cloud.walletconnect.com
 const projectId = '4ae4f912d4e7629aeeccff8fb3804be4'
 
-// 2. Set chains
-const mainnet = {
-  chainId: 1,
-  name: 'Ethereum',
-  currency: 'ETH',
-  explorerUrl: 'https://etherscan.io',
-  rpcUrl: 'https://cloudflare-eth.com'
-}
 
-const BNBsmartchainTestnet = {
-  chainId: 97,
-  name: 'BNB Smart Chain Testnet',
+const Botchain = {
+  chainId: 968,
+  name: 'Botchain Testnet',
   currency: 'tBNB',
-  explorerUrl: 'https://testnet.bscscan.com/',
-  rpcUrl: 'https://bsc-testnet-rpc.publicnode.com'
+  explorerUrl: 'https://scan.bohr.life/',
+  rpcUrl: 'https://rpc.bohr.life'
 }
 
 // 3. Create a metadata object
@@ -45,7 +37,7 @@ const ethersConfig = defaultConfig({
 // 5. Create a Web3Modal instance
 createWeb3Modal({
   ethersConfig,
-  chains: [mainnet, BNBsmartchainTestnet],
+  chains: [mainnet, Botchain],
   projectId,
   enableAnalytics: true, // Optional - defaults to your Cloud configuration
   enableOnramp: true, // Optional - false as default
