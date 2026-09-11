@@ -83,7 +83,7 @@ export default function Dashboard(){
       <div className='p-[0.4cm] menuitems4' onClick={(e) => setDisplayComponent("daogovernance") & changeBg3(e)} style={{background:bgColor3}}>DAO Governance <img src="images/dao.png" width="20" className='ml-[0.2cm]' style={{display:"inline-block"}}/></div>
       </div>
       <div className='mt-[30%] p-[0.5cm]' style={{display:"block"}}>
-       <div><Link href="https://github.com/mrpatrick030/Real-World-Asset-Tokenisation-on-Botchain-Smart-Chain/blob/main/README.md"><button className='m-[0.2cm] rounded-md bg-[#502] px-[0.3cm] py-[0.15cm] text-[#fff]'>Docs <img src="images/documentation.png" width="17" className='ml-[0.2cm]' style={{display:"inline-block"}}/></button></Link></div>
+       <div><Link href="https://github.com/mrpatrick030/Real-World-Asset-Tokenisation-on-bnb-Smart-Chain/blob/main/README.md"><button className='m-[0.2cm] rounded-md bg-[#502] px-[0.3cm] py-[0.15cm] text-[#fff]'>Docs <img src="images/documentation.png" width="17" className='ml-[0.2cm]' style={{display:"inline-block"}}/></button></Link></div>
        <Link href="https://discord.com"><img src="images/discord.png" width="35" className='m-[0.2cm]' style={{display:"inline-block"}}/></Link>
        <Link href="https://x.com"><img src="images/twitter.png" width="35" className='m-[0.2cm]' style={{display:"inline-block"}}/></Link>
       </div>
