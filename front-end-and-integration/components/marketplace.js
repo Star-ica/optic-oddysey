@@ -991,7 +991,7 @@ export default function Marketplace() {
        <div className='p-[0.5cm] bg-[#002] max-h-[5cm] overflow-auto'>
         {data[6]}
        </div>
-       <div className='p-[0.5cm]' style={{borderBlock:"2px solid #333"}}><img src="images/Botchain.png" width="25" className='mt-[-0.1cm]' style={{display:"inline-block"}} /> Price</div>
+       <div className='p-[0.5cm]' style={{borderBlock:"2px solid #333"}}><img src="images/bnb.png" width="25" className='mt-[-0.1cm]' style={{display:"inline-block"}} /> Price</div>
        <div className='p-[0.5cm] bg-[#002] rounded-b-xl'>
          <div className='text-[150%] font-[500]'>{parseFloat(data[2].toString() * 10 **-18).toFixed(6)} Botchain</div>
          {(data[10] === true && data[0] != address) && (<button onClick={(e) => {e.preventDefault(); buyNFT(data[2], data[4])}} className='px-[0.3cm] py-[0.2cm] bg-[#502] generalbutton w-[100%] mt-[0.2cm] rounded-md font-[500]'>Buy</button>)}
