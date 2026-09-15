@@ -13,11 +13,11 @@ const mainnet = {
 }
 
 const Botchain = {
-  chainId: 968,
+  chainId: 677,
   name: 'Botchain Testnet',
   currency: 'Botchain',
-  explorerUrl: 'https://scan.bohr.life/',
-  rpcUrl: 'https://rpc.bohr.life'
+  explorerUrl: 'https://scan.botchain.ai/',
+  rpcUrl: 'https://rpc.botchain.ai'
 }
 
 // 3. Create a metadata object
